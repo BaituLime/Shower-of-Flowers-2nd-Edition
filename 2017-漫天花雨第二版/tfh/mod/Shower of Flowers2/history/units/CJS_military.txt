@@ -1,0 +1,210 @@
+division = {
+	name = "第1保安队"
+	location = 5515
+	regiment = { type = militia_brigade historical_model = 1 }
+	regiment = { type = militia_brigade historical_model = 1 }
+	regiment = { type = militia_brigade historical_model = 1 }
+}
+division = {
+	name = "第2保安队"
+	location = 5515
+	regiment = { type = militia_brigade historical_model = 1 }
+	regiment = { type = militia_brigade historical_model = 1 }
+	regiment = { type = militia_brigade historical_model = 1 }
+}
+division = {
+	name = "第3保安队"
+	location = 5515
+	regiment = { type = militia_brigade historical_model = 1 }
+	regiment = { type = militia_brigade historical_model = 1 }
+	regiment = { type = militia_brigade historical_model = 1 }
+}
+division = {
+	name = "第4保安队"
+	location = 5515
+	regiment = { type = militia_brigade historical_model = 1 }
+	regiment = { type = militia_brigade historical_model = 1 }
+	regiment = { type = militia_brigade historical_model = 1 }
+}
+division = {
+	name = "第5保安队"
+	location = 5515
+	regiment = { type = militia_brigade historical_model = 1 }
+	regiment = { type = militia_brigade historical_model = 1 }
+	regiment = { type = militia_brigade historical_model = 1 }
+}
+division = {
+	name = "第6保安队"
+	location = 5515
+	regiment = { type = militia_brigade historical_model = 1 }
+	regiment = { type = militia_brigade historical_model = 1 }
+	regiment = { type = militia_brigade historical_model = 1 }
+}
+division = {
+	name = "第7保安队"
+	location = 5515
+	regiment = { type = militia_brigade historical_model = 1 }
+	regiment = { type = militia_brigade historical_model = 1 }
+	regiment = { type = militia_brigade historical_model = 1 }
+}
+division = {
+	name = "第8保安队"
+	location = 5515
+	regiment = { type = militia_brigade historical_model = 1 }
+	regiment = { type = militia_brigade historical_model = 1 }
+	regiment = { type = militia_brigade historical_model = 1 }
+}
+division = {
+	name = "第9保安队"
+	location = 5515
+	regiment = { type = militia_brigade historical_model = 1 }
+	regiment = { type = militia_brigade historical_model = 1 }
+	regiment = { type = militia_brigade historical_model = 1 }
+}
+division = {
+	name = "第10保安队"
+	location = 5515
+	regiment = { type = militia_brigade historical_model = 1 }
+	regiment = { type = militia_brigade historical_model = 1 }
+	regiment = { type = militia_brigade historical_model = 1 }
+}
+division = {
+	name = "第11保安队"
+	location = 5494
+	regiment = { type = militia_brigade historical_model = 1 }
+	regiment = { type = militia_brigade historical_model = 1 }
+	regiment = { type = militia_brigade historical_model = 1 }
+}
+division = {
+	name = "第12保安队"
+	location = 5494
+	regiment = { type = militia_brigade historical_model = 1 }
+	regiment = { type = militia_brigade historical_model = 1 }
+	regiment = { type = militia_brigade historical_model = 1 }
+}
+division = {
+	name = "第13保安队"
+	location = 5494
+	regiment = { type = militia_brigade historical_model = 1 }
+	regiment = { type = militia_brigade historical_model = 1 }
+	regiment = { type = militia_brigade historical_model = 1 }
+}
+division = {
+	name = "第14保安队"
+	location = 5494
+	regiment = { type = militia_brigade historical_model = 1 }
+	regiment = { type = militia_brigade historical_model = 1 }
+	regiment = { type = militia_brigade historical_model = 1 }
+}
+division = {
+	name = "第15保安队"
+	location = 5494
+	regiment = { type = militia_brigade historical_model = 1 }
+	regiment = { type = militia_brigade historical_model = 1 }
+	regiment = { type = militia_brigade historical_model = 1 }
+}
+division = {
+	name = "第16保安队"
+	location = 5494
+	regiment = { type = militia_brigade historical_model = 1 }
+	regiment = { type = militia_brigade historical_model = 1 }
+	regiment = { type = militia_brigade historical_model = 1 }
+}
+division = {
+	name = "第17保安队"
+	location = 5494
+	regiment = { type = militia_brigade historical_model = 1 }
+	regiment = { type = militia_brigade historical_model = 1 }
+	regiment = { type = militia_brigade historical_model = 1 }
+}
+division = {
+	name = "第18保安队"
+	location = 5494
+	regiment = { type = militia_brigade historical_model = 1 }
+	regiment = { type = militia_brigade historical_model = 1 }
+	regiment = { type = militia_brigade historical_model = 1 }
+}
+division = {
+	name = "第19保安队"
+	location = 5494
+	regiment = { type = militia_brigade historical_model = 1 }
+	regiment = { type = militia_brigade historical_model = 1 }
+	regiment = { type = militia_brigade historical_model = 1 }
+}
+division = {
+	name = "第20保安队"
+	location = 5494
+	regiment = { type = militia_brigade historical_model = 1 }
+	regiment = { type = militia_brigade historical_model = 1 }
+	regiment = { type = militia_brigade historical_model = 1 }
+}
+division = {
+	name = "第21保安队"
+	location = 5494
+	regiment = { type = militia_brigade historical_model = 1 }
+	regiment = { type = militia_brigade historical_model = 1 }
+	regiment = { type = militia_brigade historical_model = 1 }
+}
+division = {
+	name = "第22保安队"
+	location = 5494
+	regiment = { type = militia_brigade historical_model = 1 }
+	regiment = { type = militia_brigade historical_model = 1 }
+	regiment = { type = militia_brigade historical_model = 1 }
+}
+division = {
+	name = "第23保安队"
+	location = 5494
+	regiment = { type = militia_brigade historical_model = 1 }
+	regiment = { type = militia_brigade historical_model = 1 }
+	regiment = { type = militia_brigade historical_model = 1 }
+}
+division = {
+	name = "第24保安队"
+	location = 5494
+	regiment = { type = militia_brigade historical_model = 1 }
+	regiment = { type = militia_brigade historical_model = 1 }
+	regiment = { type = militia_brigade historical_model = 1 }
+}
+division = {
+	name = "第25保安队"
+	location = 5494
+	regiment = { type = militia_brigade historical_model = 1 }
+	regiment = { type = militia_brigade historical_model = 1 }
+	regiment = { type = militia_brigade historical_model = 1 }
+}
+division = {
+	name = "第26保安队"
+	location = 5494
+	regiment = { type = militia_brigade historical_model = 1 }
+	regiment = { type = militia_brigade historical_model = 1 }
+	regiment = { type = militia_brigade historical_model = 1 }
+}
+division = {
+	name = "第27保安队"
+	location = 5494
+	regiment = { type = militia_brigade historical_model = 1 }
+	regiment = { type = militia_brigade historical_model = 1 }
+	regiment = { type = militia_brigade historical_model = 1 }
+}
+division = {
+	name = "第28保安队"
+	location = 5494
+	regiment = { type = militia_brigade historical_model = 1 }
+	regiment = { type = militia_brigade historical_model = 1 }
+	regiment = { type = militia_brigade historical_model = 1 }
+}
+division = {
+	name = "第29保安队"
+	location = 5494
+	regiment = { type = militia_brigade historical_model = 1 }
+	regiment = { type = militia_brigade historical_model = 1 }
+	regiment = { type = militia_brigade historical_model = 1 }
+}
+division = {
+	name = "第30保安队"
+	location = 5494
+	regiment = { type = militia_brigade historical_model = 1 }
+	regiment = { type = militia_brigade historical_model = 1 }
+	regiment = { type = militia_brigade historical_model = 1 }
+}

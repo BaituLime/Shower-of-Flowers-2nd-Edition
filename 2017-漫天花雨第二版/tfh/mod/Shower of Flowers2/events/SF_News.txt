@@ -1,0 +1,75 @@
+######################
+#   军政新闻事件组   #
+######################
+#七君子事件
+country_event = {
+	id = 1000081
+	major = yes
+	title = "Event1000081title"
+	subtitle = "Event1000081subtitle"
+	desc = "Event1000081desc"
+	picture = "Event1000081"
+	trigger = {
+		tag = CHI
+		not = { war_with = JAP }
+		not = { has_country_flag = Event1000081 }
+		not = { CHI = { controls = 5599 } }
+		date = 1937.4.1
+	}
+	option = {
+		name = "Event1000081option"
+		set_country_flag = Event1000081
+		ai_chance = { factor = 100 }
+		dissent = 5
+		national_unity = -5
+	}
+}
+#五五宪草
+country_event = {
+	id = 1000083
+	major = yes
+	title = "Event1000083title"
+	desc = "Event1000083desc"
+	picture = "CHI_Flag"
+	trigger = {
+		tag = CHI
+		not = { has_country_flag = Event1000083 }
+		date = 1936.5.5
+	}
+	option = {
+		name = "Event1000083option"
+		set_country_flag = Event1000083
+		ai_chance = { factor = 100 }
+		dissent = 5
+		government = right_wing_autocrat
+	}
+}
+#刘湘之死
+country_event = {
+	id = 1000101
+	major = yes
+	title = "Event1000101title"
+	desc = "Event1000101desc"
+	picture = "Event1000101"
+	trigger = {
+		tag = CSC
+		not = { has_country_flag = Event1000101 }
+		war_with = JAP
+		alliance_with = CHI
+		date = 1938.1.20
+	}
+	option = {
+		name = "Event1000101option1"
+		set_country_flag = Event1000101
+		sichuan_region = { remove_core = CSC }
+		CHI = { split_troops = 1.0 }
+		CHI = { inherit = CSC }
+		ai_chance = { factor = 100 }
+	}
+	option = {
+		name = "Event1000101option2"
+		set_country_flag = Event1000101
+		head_of_state = 502010
+		ai_chance = { factor = 0 }
+	}
+}

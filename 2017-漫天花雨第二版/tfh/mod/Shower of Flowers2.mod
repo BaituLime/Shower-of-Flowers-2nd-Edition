@@ -1,0 +1,7 @@
+name = "Shower of Flowers2"
+path = "tfh/mod/Shower of Flowers2"
+user_dir = "Shower of Flowers2"
+replace_path = "music"
+replace_path = "events"
+replace_path = "decisions"
+replace_path = "localisation"

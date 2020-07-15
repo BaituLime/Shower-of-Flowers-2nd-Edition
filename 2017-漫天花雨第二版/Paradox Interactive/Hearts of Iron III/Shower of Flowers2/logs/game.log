@@ -1,0 +1,61 @@
+[trigger.cpp:365]: Fixed trigger dependency for radar = 1
+[trigger.cpp:365]: Fixed trigger dependency for radar = 2
+[trigger.cpp:365]: Fixed trigger dependency for radar = 2
+[trigger.cpp:365]: Fixed trigger dependency for radar = 2
+[trigger.cpp:365]: Fixed trigger dependency for rocket_engine = 1
+[trigger.cpp:365]: Fixed trigger dependency for theorical_jet_engine = 1
+[trigger.cpp:365]: Fixed trigger dependency for paratrooper_infantry = 1
+[trigger.cpp:365]: Fixed trigger dependency for mortorised_infantry = 1
+[trigger.cpp:365]: Fixed trigger dependency for smallarms_technology = 3
+[trigger.cpp:365]: Fixed trigger dependency for infantry_support = 3
+[trigger.cpp:365]: Fixed trigger dependency for infantry_guns = 3
+[trigger.cpp:365]: Fixed trigger dependency for infantry_at = 3
+[trigger.cpp:365]: Fixed trigger dependency for infantry_activation = 1
+[trigger.cpp:365]: Fixed trigger dependency for infantry_activation = 1
+[trigger.cpp:365]: Fixed trigger dependency for infantry_activation = 1
+[trigger.cpp:365]: Fixed trigger dependency for infantry_activation = 1
+[trigger.cpp:365]: Fixed trigger dependency for infantry_activation = 1
+[trigger.cpp:365]: Fixed trigger dependency for infantry_activation = 1
+[trigger.cpp:365]: Fixed trigger dependency for infantry_activation = 1
+[trigger.cpp:365]: Fixed trigger dependency for radar = 1
+[trigger.cpp:365]: Fixed trigger dependency for mechnical_computing_machine = 1
+[trigger.cpp:365]: Fixed trigger dependency for radar = 1
+[trigger.cpp:365]: Fixed trigger dependency for radar = 3
+[trigger.cpp:365]: Fixed trigger dependency for radar = 1
+[trigger.cpp:365]: Fixed trigger dependency for radar = 3
+[trigger.cpp:365]: Fixed trigger dependency for radar = 1
+[trigger.cpp:365]: Fixed trigger dependency for radar = 3
+[trigger.cpp:365]: Fixed trigger dependency for radar = 1
+[trigger.cpp:365]: Fixed trigger dependency for radar = 1
+[trigger.cpp:365]: Fixed trigger dependency for amphibious_invasion_technology = 2
+[trigger.cpp:365]: Fixed trigger dependency for amphibious_assault_units = 2
+[trigger.cpp:365]: Fixed trigger dependency for rocket_engine = 1
+[trigger.cpp:365]: Fixed trigger dependency for civil_nuclear_research = 4
+[trigger.cpp:365]: Fixed trigger dependency for rocket_engine = 1
+[trigger.cpp:365]: Fixed trigger dependency for radar = 3
+[trigger.cpp:365]: Fixed trigger dependency for radar = 3
+[trigger.cpp:365]: Fixed trigger dependency for radar = 3
+[trigger.cpp:365]: Fixed trigger dependency for radar = 3
+[history.cpp:286]: Executing History from -1.1.1.0 to  2.1.1.0
+[history.cpp:286]: Executing History from 2.1.1.0 to  1936.1.1.0
+[controlcommands.cpp:86]: Human 玩家 set as primary local
+[controlcommands.cpp:42]: Human 玩家 unset as primary local
+[controlcommands.cpp:86]: Human 玩家 set as primary local
+[controlcommands.cpp:42]: Human 玩家 unset as primary local
+[controlcommands.cpp:86]: Human 玩家 set as primary local
+[controlcommands.cpp:42]: Human 玩家 unset as primary local
+[controlcommands.cpp:86]: Human 玩家 set as primary local
+[controlcommands.cpp:42]: Human 玩家 unset as primary local
+[controlcommands.cpp:86]: Human 玩家 set as primary local
+[controlcommands.cpp:42]: Human 玩家 unset as primary local
+[controlcommands.cpp:86]: Human 玩家 set as primary local
+[controlcommands.cpp:42]: Human 玩家 unset as primary local
+[controlcommands.cpp:86]: Human 玩家 set as primary local
+[frontend.cpp:759]: 
+
+		[[ Launching SINGLEPLAYER-game ]]
+	Start-date: 1936.1.1.0
+	Country: 中共
+
+
+[eu3idler.cpp:4059]: new song music/SF016.mp3

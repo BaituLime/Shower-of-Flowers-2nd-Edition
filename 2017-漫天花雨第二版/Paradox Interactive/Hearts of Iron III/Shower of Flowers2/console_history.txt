@@ -1,0 +1,41 @@
+date 1936.4.1
+date 1936.12.12
+tag CXB
+nextsong
+nextsong
+nextsong
+nextsong
+nextsong
+nextsong
+nextsong
+nextsong
+surrender CHI CHC
+surrender CSC CHC
+surrender CSY CHC
+surrender CDB CHC
+
+surrender CSX CHC
+surrender CSX CHC
+surrender CSD CHC
+
+surrender CQM CHC
+surrender CQM CHC
+
+
+surrender CNM CHC
+surrender CJC CHC
+surrender JAP CHC
+
+surrender MAN CHC
+surrender CJD CHC
+
+surrender CGX CHC
+surrender CGD CHC
+
+surrender CYN CHC
+surrender TIB CHC
+
+surrender SIK CHC
+surrender CXK CHC
+tag PRC
+tdbg

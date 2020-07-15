@@ -1,0 +1,17 @@
+bookmark =
+{
+	icon = "GFX_bg_startdate_1936"
+	name = "ROAD_TO_WAR_NAME"
+	desc = "ROAD_TO_WAR_DESC"
+	date = 1936.1.1
+	
+	country = ENG
+	country = GER
+	country = FRA
+	country = USA
+	country = JAP
+	country = SOV
+	country = ITA
+	country = CHI
+	country = CHC
+}
