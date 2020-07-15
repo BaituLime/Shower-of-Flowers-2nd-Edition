@@ -1,0 +1,170 @@
+######################
+#   日本侵华事件组   #
+######################
+#平津作战
+country_event = {
+	id = 1701
+	is_triggered_only = yes
+	title = "Peking_Invasion"
+	desc = "Peking_Invasion_desc"
+	picture = "JAP_Event_1701"
+	option = {
+		name = "Peking_Invasion_option"
+		relation = { who = CHI value = -50 }
+		relation = { who = CSX value = -50 }
+		relation = { who = CGX value = -50 }
+		manpower = 1000
+		CHI = { country_event = 1000017 }
+		CHC = { country_event = 1000018 }
+	}
+}
+#卢沟桥事变
+country_event = {
+	id = 1000017
+	major = yes
+	is_triggered_only = yes
+	title = "Peking_Invasion_CHI"
+	desc = "Peking_Invasion_CHI_desc"
+	picture = "CHI_Event_1000017"
+	option = {
+		name = "Peking_Invasion_CHI_option"
+		manpower = 1500
+		set_country_flag = CHI_Passive_defense
+		CHI = { 4979 = { secede_province = JAP } } 
+		CHI = { 5018 = { secede_province = JAP } } 
+	}
+}
+#中共通电
+country_event = {
+	id = 1000018
+	is_triggered_only = yes
+	title = "Peking_Invasion_CHC"
+	desc = "Peking_Invasion_CHC_desc"
+	picture = "CHC_Event_1000018"
+	trigger = {
+		tag = CHC
+		war_with = JAP
+		has_country_flag = xi_an_incident
+	}
+	option = {
+		name = "Peking_Invasion_CHC_option"
+		set_country_flag = CHC_defense
+	}
+}
+#最高领袖的摇摆态度
+country_event = {
+	id = 1000021
+	major = yes
+	title = "CHI_Event_1000021"
+	subtitle = "CHI_Event_1000021_subtitle"
+	desc = "CHI_Event_1000021_desc"
+	picture = "CHI_Event_1000021"
+	trigger = {
+		tag = CHI
+		not = { has_global_flag = CHI_Event_1000021 }
+		has_country_flag = CHI_Passive_defense
+	}
+	mean_time_to_happen =  {
+		days = 1
+	}
+	option = {
+		name = "CHI_Event_1000021_option"
+		set_global_flag = CHI_Event_1000021
+		ai_chance = { factor = 100 }
+		JAP = {
+			neutrality = 100
+			relation = { who = ENG value = -10 }
+			relation = { who = SOV value = -10 }
+		}
+	}
+}
+
+#进攻上海
+country_event = {
+	id = 1000019
+	is_triggered_only = yes
+	title = "Shanghai_Invasion"
+	desc = "Shanghai_Invasion_desc"
+	picture = "JAP_Event_1000019"
+	option = {
+		name = "Shanghai_Invasion_option"
+		JAP = {	
+			war = {	
+				target = CHI 
+				attacker_goal = { casus_belli = china_war_goal }
+			} 
+			war = {
+				target = CSX
+			}
+			war = {
+				target = CGX
+			}
+			neutrality = 100
+		}
+		load_oob = "JAP_Peking.txt"
+		load_oob = "JAP_Shanghai.txt"
+		CHI = { 5542 = { secede_province = JAP } }
+		dissent = -10
+		CHI = { country_event = 1000020 }
+		CHC = { country_event = 1000022 }
+	}
+}
+#八一三事变与自卫抗战声明书
+country_event = {
+	id = 1000020
+	is_triggered_only = yes
+	title = "Shanghai_Invasion_China"
+	subtitle = "Shanghai_Invasion_China_subtitle"
+	desc = "Shanghai_Invasion_China_desc"
+	picture = "China_Event_1000020"
+	option = {
+		name = "Shanghai_Invasion_China_option"
+		load_oob = "CHI_Shanghai.txt"
+		set_country_flag = CHI_Kangzhan
+	}
+}
+country_event = {
+	id = 1000022
+	is_triggered_only = yes
+	title = "Shanghai_Invasion_China"
+	subtitle = "Shanghai_Invasion_China_subtitle"
+	desc = "Shanghai_Invasion_China_desc"
+	picture = "China_Event_1000020"
+	trigger = {
+		tag = CHC
+		war_with = JAP
+		has_country_flag = xi_an_incident
+	}
+	option = {
+		name = "Shanghai_Invasion_China_option"
+	}
+}
+#抗日战争相持阶段
+country_event = {
+	id = 520
+	is_triggered_only = yes
+	major = yes
+	title = "EVTNAME520"
+	desc = "EVTDESC520" 
+	picture = "CHI_Flag"
+	option = {
+		name = "EVTOPTA520"
+		CHI = {
+			chahar_region = { secede_province = JAP }
+			hebei_region = { secede_province = JAP }
+			shandong_region = { secede_province = JAP }
+			jiangsu_region = { secede_province = JAP }
+			anhui_region = { secede_province = JAP }
+			sino_jap_peace_region = { secede_province = JAP }
+			5946 = { secede_province = JAP }
+			set_country_flag = jap_seizes_coast_chi
+		}
+		JAP = {
+			set_country_flag = jap_seizes_coast
+			war = {	
+				target = CHI
+				attacker_goal = { casus_belli = conquer }
+			} 
+		}
+	}
+}

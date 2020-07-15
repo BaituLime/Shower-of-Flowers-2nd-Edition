@@ -1,0 +1,162 @@
+song = {
+	name = "JAP_plot.mp3"
+	chance = {
+		modifier = {
+			factor = 0
+			OR = {
+				NOT = { tag = JAP }
+				war_with = CHI
+				war_with = USA
+			}
+		}
+		modifier = {
+			factor = 4
+			tag = JAP
+			not = { war_with = CHI }
+			not = { war_with = USA }
+		}
+	}
+}
+song = {
+	name = "JAP_Sakura_and_Ambition.mp3"
+	chance = {
+		modifier = {
+			factor = 0
+			OR = {
+				NOT = { tag = JAP }
+				not = { has_country_flag = Japan_Preparing_3 }
+			}
+		}
+		modifier = {
+			factor = 4
+			tag = JAP
+			has_country_flag = Japan_Preparing_3
+		}
+	}
+}
+song = {
+	name = "JAP_Peking_battle.mp3"
+	chance = {
+		modifier = {
+			factor = 0
+			OR = {
+				NOT = { tag = JAP }
+				not = { has_country_flag = the_marco_polo_bridge_incident }
+			}
+		}
+		modifier = {
+			factor = 4
+			tag = JAP
+			has_country_flag = the_marco_polo_bridge_incident
+		}
+	}
+}
+song = {
+	name = "JAP_kill_hundred.mp3"
+	chance = {
+		modifier = {
+			factor = 0
+			OR = {
+				NOT = { tag = JAP }
+				not = { has_global_flag = Nanking_japan }
+			}
+		}
+		modifier = {
+			factor = 4
+			tag = JAP
+			has_global_flag = Nanking_japan
+		}
+	}
+}
+song = {
+	name = "JAP_Qiulong.mp3"
+	chance = {
+		modifier = {
+			factor = 0
+			OR = {
+				NOT = { tag = JAP }
+				not = { has_global_flag = thenorthchinapolice }
+			}
+		}
+		modifier = {
+			factor = 4
+			tag = JAP
+			has_global_flag = thenorthchinapolice
+		}
+	}
+}
+song = {
+	name = "JAP_Victory_of_Zhongtiaoshan.mp3"
+	chance = {
+		modifier = {
+			factor = 0
+			OR = {
+				NOT = { tag = JAP }
+				not = { has_country_flag = zhongtiaoshan_j }
+			}
+		}
+		modifier = {
+			factor = 4
+			tag = JAP
+			has_country_flag = zhongtiaoshan_j
+		}
+	}
+}
+song = {
+	name = "JAP_occupy_Jinan.mp3"
+	chance = {
+		modifier = {
+			factor = 0
+			OR = {
+				NOT = { tag = JAP }
+				not = { and = { JAP = { controls = 5275 } CHB = { controls = 5275 } WJW = { controls = 5275 } } }
+			}
+		}
+		modifier = {
+			factor = 4
+			tag = JAP
+			or = { JAP = { controls = 5275 } CHB = { controls = 5275 } WJW = { controls = 5275 } }
+		}
+	}
+}
+song = {
+	name = "JAP_occupy_Taiyuan.mp3"
+	chance = {
+		modifier = {
+			factor = 0
+			OR = {
+				NOT = { tag = JAP }
+				not = { and = { JAP = { controls = 5174 } CHB = { controls = 5174 } WJW = { controls = 5174 } } }
+			}
+		}
+		modifier = {
+			factor = 4
+			tag = JAP
+			or = { JAP = { controls = 5174 } CHB = { controls = 5174 } WJW = { controls = 5174 } }
+		}
+	}
+}
+song = {
+	name = "Japan_China.mp3"
+	chance = {
+		modifier = {
+			factor = 0
+			OR = {
+				NOT = { tag = JAP }
+				not = { or = { JAP = { controls = 7417 } WJW = { controls = 7417 } } }
+				not = { or = { JAP = { controls = 9478 } WJW = { controls = 9478 } } }
+				not = { or = { JAP = { controls = 9415 } WJW = { controls = 9415 } } }
+			}
+		}
+		modifier = {
+			factor = 4
+			tag = JAP
+			and = {
+				or = { JAP = { controls = 7417 } WJW = { controls = 7417 } }
+				or = { JAP = { controls = 9478 } WJW = { controls = 9478 } }
+				or = { JAP = { controls = 9415 } WJW = { controls = 9415 } }
+			}
+		}
+	}
+}
+

@@ -1,0 +1,21 @@
+diplomatic_decisions = {
+	#÷ÿ«ÏÃ∏≈–
+	Chongqing_negotiations = {
+		potential = {
+			tag = CHI
+			alliance_with = CHC
+			or = {
+				not = { exists = JAP }
+				JAP = { is_subject = yes }
+			}
+			not = { has_global_flag = Chongqing_negotiations }
+		}
+		effect = {
+			set_global_flag = Chongqing_negotiations
+			country_event = 1000075
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

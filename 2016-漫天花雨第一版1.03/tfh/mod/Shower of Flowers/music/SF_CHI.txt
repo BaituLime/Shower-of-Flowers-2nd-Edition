@@ -1,0 +1,163 @@
+song = {
+	name = "CHI_Whampoa_Military_Academy.mp3"
+	chance = {
+		modifier = {
+			factor = 0
+			OR = {
+				NOT = { tag = CHI }
+				year = 1937
+			}
+		}
+		modifier = {
+			factor = 4
+			tag = CHI
+			NOT = { year = 1937 }
+		}
+	}
+}
+song = {
+	name = "CHI_Night_Shanghai.mp3"
+	chance = {
+		modifier = {
+			factor = 0
+			OR = {
+				NOT = { tag = CHI }
+				NOT = { year = 1938 }
+			}
+		}
+		modifier = {
+			factor = 4
+			tag = CHI
+			year = 1938
+		}
+	}
+}
+song = {
+	name = "CHI_Passive_defence_bitter.mp3"
+	chance = {
+		modifier = {
+			factor = 0
+			OR = {
+				NOT = { tag = CHI }
+				not = { has_country_flag = CHI_Passive_defense }
+			}
+		}
+		modifier = {
+			factor = 4
+			tag = CHI
+			has_country_flag = CHI_Passive_defense
+		}
+	}
+}
+song = {
+	name = "CHI_Declaration_of_self_defense.mp3"
+	chance = {
+		modifier = {
+			factor = 0
+			OR = {
+				NOT = { tag = CHI }
+				not = { has_country_flag = CHI_Kangzhan }
+			}
+		}
+		modifier = {
+			factor = 4
+			tag = CHI
+			has_country_flag = CHI_Kangzhan
+		}
+	}
+}
+song = {
+	name = "CHI_War_against_JAP.mp3"
+	chance = {
+		modifier = {
+			factor = 0
+			OR = {
+				NOT = { tag = CHI }
+				not = { has_country_flag = CHI_Event_1000057 }
+			}
+		}
+		modifier = {
+			factor = 4
+			tag = CHI
+			has_country_flag = CHI_Event_1000057
+		}
+	}
+}
+song = {
+	name = "CHI_Battle_of_Shanghai.mp3"
+	chance = {
+		modifier = {
+			factor = 0
+			OR = {
+				NOT = { tag = CHI }
+				not = { has_country_flag = songhu }
+			}
+		}
+		modifier = {
+			factor = 4
+			tag = CHI
+			has_country_flag = songhu
+		}
+	}
+}
+song = {
+	name = "CHI_Battle_of_Taierzhuang.mp3"
+	chance = {
+		modifier = {
+			factor = 0
+			OR = {
+				NOT = { tag = CHI }
+				not = { has_country_flag = Taierzhuang }
+			}
+		}
+		modifier = {
+			factor = 4
+			tag = CHI
+			has_country_flag = Taierzhuang
+		}
+	}
+}
+song = {
+	name = "China_Nanjing.mp3"
+	chance = {
+		modifier = {
+			factor = 0
+			OR = {
+				NOT = { or = { tag = CHI tag = CHC tag = CSX tag = CGX tag = CYN } }
+				not = { has_global_flag = Nanking_japan }
+			}
+		}
+		modifier = {
+			factor = 4
+			or = { tag = CHI tag = CHC tag = CSX tag = CGX tag = CYN }
+			has_global_flag = Nanking_japan
+		}
+	}
+}
+song = {
+	name = "China_Japan.mp3"
+	chance = {
+		modifier = {
+			factor = 0
+			OR = {
+				NOT = { or = { tag = CHI tag = CHC tag = CSX tag = CGX tag = CYN } }
+				not = { or = { CHC = { controls = 4979 } CHI = { controls = 4979 } CSX = { controls = 4979 } CGX = { controls = 4979 } CYN = { controls = 4979 } } }
+				not = { or = { CHC = { controls = 5542 } CHI = { controls = 5542 } CSX = { controls = 5542 } CGX = { controls = 5542 } CYN = { controls = 5542 } } }
+				not = { or = { CHC = { controls = 7139 } CHI = { controls = 7139 } CSX = { controls = 7139 } CGX = { controls = 7139 } CYN = { controls = 7139 } } }
+				not = { or = { CHC = { controls = 4452 } CHI = { controls = 4452 } CSX = { controls = 4452 } CGX = { controls = 4452 } CYN = { controls = 4452 } } }
+				not = { or = { CHC = { controls = 4685 } CHI = { controls = 4685 } CSX = { controls = 4685 } CGX = { controls = 4685 } CYN = { controls = 4685 } } }
+			}
+		}
+		modifier = {
+			factor = 4
+			or = { tag = CHI tag = CHC tag = CSX tag = CGX tag = CYN }
+			and = {
+				or = { CHC = { controls = 4979 } CHI = { controls = 4979 } CSX = { controls = 4979 } CGX = { controls = 4979 } CYN = { controls = 4979 } }
+				or = { CHC = { controls = 5542 } CHI = { controls = 5542 } CSX = { controls = 5542 } CGX = { controls = 5542 } CYN = { controls = 5542 } }
+				or = { CHC = { controls = 7139 } CHI = { controls = 7139 } CSX = { controls = 7139 } CGX = { controls = 7139 } CYN = { controls = 7139 } }
+				or = { CHC = { controls = 4452 } CHI = { controls = 4452 } CSX = { controls = 4452 } CGX = { controls = 4452 } CYN = { controls = 4452 } }
+				or = { CHC = { controls = 4685 } CHI = { controls = 4685 } CSX = { controls = 4685 } CGX = { controls = 4685 } CYN = { controls = 4685 } }
+			}
+		}
+	}
+}

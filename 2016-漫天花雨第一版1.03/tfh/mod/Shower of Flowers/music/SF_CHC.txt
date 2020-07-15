@@ -1,0 +1,268 @@
+song = {
+	name = "CHC_Soviet_Melancholy.mp3"
+	chance = {
+		modifier = {
+			factor = 0
+			OR = {
+				NOT = { tag = CHC }
+				year = 1937
+			}
+		}
+		modifier = {
+			factor = 4
+			tag = CHC
+			NOT = { year = 1937 }
+		}
+	}
+}
+song = {
+	name = "CHC_Song_of_The_Fisherman.mp3"
+	chance = {
+		modifier = {
+			factor = 0
+			OR = {
+				NOT = { tag = CHC }
+				NOT = { year = 1937 }
+			}
+		}
+		modifier = {
+			factor = 4
+			tag = CHC
+			year = 1937
+		}
+	}
+}
+song = {
+	name = "CHC_Long_March.mp3"
+	chance = {
+		modifier = {
+			factor = 0
+			NOT = { tag = CHC }
+		}
+		modifier = {
+			factor = 4
+			tag = CHC
+		}
+	}
+}
+song = {
+	name = "CHC_Kanglian_build.mp3"
+	chance = {
+		modifier = {
+			factor = 0
+			OR = {
+				NOT = { tag = CHC }
+				not = { has_global_flag = Kanglian_1 }
+			}
+		}
+		modifier = {
+			factor = 4
+			tag = CHC
+			has_global_flag = Kanglian_1
+		}
+	}
+}
+song = {
+	name = "CHC_china_warriors.mp3"
+	chance = {
+		modifier = {
+			factor = 0
+			OR = {
+				NOT = { tag = CHC }
+				not = { has_country_flag = CHC_defense }
+			}
+		}
+		modifier = {
+			factor = 4
+			tag = CHC
+			has_country_flag = CHC_defense
+		}
+	}
+}
+song = {
+	name = "CHC_ERA.mp3"
+	chance = {
+		modifier = {
+			factor = 0
+			OR = {
+				NOT = { tag = CHC }
+				not = { has_global_flag = luochuan_meeting }
+			}
+		}
+		modifier = {
+			factor = 4
+			tag = CHC
+			has_global_flag = luochuan_meeting
+		}
+	}
+}
+song = {
+	name = "CHC_N4Army.mp3"
+	chance = {
+		modifier = {
+			factor = 0
+			OR = {
+				NOT = { tag = CHC }
+				not = { has_country_flag = new_fourth_army }
+			}
+		}
+		modifier = {
+			factor = 4
+			tag = CHC
+			has_country_flag = new_fourth_army
+		}
+	}
+}
+song = {
+	name = "CHC_War.mp3"
+	chance = {
+		modifier = {
+			factor = 0
+			OR = {
+				NOT = { tag = CHC }
+				not = { has_country_flag = luochuan_meeting_1 }
+			}
+		}
+		modifier = {
+			factor = 4
+			tag = CHC
+			has_country_flag = luochuan_meeting_1
+		}
+	}
+}
+song = {
+	name = "CHC_Large_War.mp3"
+	chance = {
+		modifier = {
+			factor = 0
+			OR = {
+				NOT = { tag = CHC }
+				not = { has_country_flag = luochuan_meeting_1 }
+			}
+		}
+		modifier = {
+			factor = 4
+			tag = CHC
+			has_country_flag = luochuan_meeting_1
+		}
+	}
+}
+song = {
+	name = "CHC_Jidong.mp3"
+	chance = {
+		modifier = {
+			factor = 0
+			OR = {
+				NOT = { tag = CHC }
+				not = { has_country_flag = jidong_uprising }
+			}
+		}
+		modifier = {
+			factor = 4
+			tag = CHC
+			has_country_flag = jidong_uprising
+		}
+	}
+}
+song = {
+	name = "CHC_Jinchajim.mp3"
+	chance = {
+		modifier = {
+			factor = 0
+			OR = {
+				NOT = { tag = CHC }
+				not = { has_global_flag = chc_jinchaji }
+			}
+		}
+		modifier = {
+			factor = 4
+			tag = CHC
+			has_global_flag = chc_jinchaji
+		}
+	}
+}
+song = {
+	name = "CHC_Shandongm.mp3"
+	chance = {
+		modifier = {
+			factor = 0
+			OR = {
+				NOT = { tag = CHC }
+				not = { has_country_flag = shandong_chc_army }
+			}
+		}
+		modifier = {
+			factor = 4
+			tag = CHC
+			has_country_flag = shandong_chc_army
+		}
+	}
+}
+song = {
+	name = "CHC_Taihang.mp3"
+	chance = {
+		modifier = {
+			factor = 0
+			OR = {
+				NOT = { tag = CHC }
+				not = { has_country_flag = chc_jinjiyu }
+			}
+		}
+		modifier = {
+			factor = 4
+			tag = CHC
+			has_country_flag = chc_jinjiyu
+		}
+	}
+}
+song = {
+	name = "CHC_Anti_sweep.mp3"
+	chance = {
+		modifier = {
+			factor = 0
+			OR = {
+				NOT = { tag = CHC }
+				not = { has_global_flag = Sanguang }
+			}
+		}
+		modifier = {
+			factor = 4
+			tag = CHC
+			has_global_flag = Sanguang
+		}
+	}
+}
+song = {
+	name = "CHC_Anti_Besiege.mp3"
+	chance = {
+		modifier = {
+			factor = 0
+			OR = {
+				NOT = { tag = CHC }
+				not = { has_global_flag = chc_jinchaji }
+			}
+		}
+		modifier = {
+			factor = 4
+			tag = CHC
+			has_global_flag = chc_jinchaji
+		}
+	}
+}
+song = {
+	name = "CHC_hundred_regiments_offensive.mp3"
+	chance = {
+		modifier = {
+			factor = 0
+			OR = {
+				NOT = { tag = CHC }
+				not = { has_country_flag = baituandazhan }
+			}
+		}
+		modifier = {
+			factor = 4
+			tag = CHC
+			has_country_flag = baituandazhan
+		}
+	}
+}

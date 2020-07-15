@@ -1,0 +1,60 @@
+######################
+#   重庆谈判事件组   #
+######################
+country_event = {
+	id = 1000075
+	is_triggered_only = yes
+	title = "chongqing_n"
+	desc = "chongqing_n_desc"
+	picture = "chongqing_n"
+	option = {
+		name = "chongqing_n_option1"
+		neutrality = 100
+		CHC = {
+			neutrality = 100
+			leave_alliance = CSX
+			leave_alliance = CGX
+			leave_alliance = CYN
+			country_event = 1000076
+		}
+		leave_alliance = CHC
+		war = { 
+			target = CHC
+			attacker_goal = { casus_belli = conquer } 
+			defender_goal = { casus_belli = conquer } 
+		}
+		CXB = {
+			war = { 
+				target = CHC
+				attacker_goal = { casus_belli = conquer } 
+				defender_goal = { casus_belli = conquer } 
+			}
+		}
+		CGX = {
+			war = { 
+				target = CHC
+				attacker_goal = { casus_belli = conquer } 
+				defender_goal = { casus_belli = conquer } 
+			}
+		}
+		CYN = {
+			war = { 
+				target = CHC
+				attacker_goal = { casus_belli = conquer } 
+				defender_goal = { casus_belli = conquer } 
+			}
+		}
+		ai_chance = { factor = 100 }
+	}
+}
+country_event = {
+	id = 1000076
+	is_triggered_only = yes
+	title = "chongqing_n"
+	desc = "chongqing_n_desc"
+	picture = "chongqing_n"
+	option = {
+		name = "chongqing_n_option2"
+		ai_chance = { factor = 100 }
+	}
+}

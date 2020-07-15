@@ -1,0 +1,138 @@
+country_event = {
+	id = 2000001
+	is_triggered_only = yes
+	title = "漫天花雨测试事件1"
+	desc = "日本征服中国"
+	picture = "JAP_Flag"
+	option = {
+		name = "测试"
+		JAP = { inherit = CHI inherit = CXB inherit = CSX inherit = CGX inherit = CYN } 
+		ai_chance = { factor = 100 }
+	}
+}
+country_event = {
+	id = 2000002
+	is_triggered_only = yes
+	title = "漫天花雨测试事件2"
+	desc = "中共获取全部根据地"
+	picture = "CHC_Flag"
+	option = {
+		name = "测试"
+		JAP = { hainan_anti_japanese_base = { secede_province = CHC }
+			dongjiang_anti_japanese_base = { secede_province = CHC }
+			north_anhwei_anti_japanese_base = { secede_province = CHC }
+			north_jiangsu_anti_japanese_base = { secede_province = CHC }
+			central_jiangsu_anti_japanese_base = { secede_province = CHC }
+			south_anhwei_anti_japanese_base = { secede_province = CHC }
+			south_jiangsu_anti_japanese_base = { secede_province = CHC }
+			huainan_anti_japanese_base = { secede_province = CHC }
+			east_chekiang_anti_japanese_base = { secede_province = CHC }
+			hubei_henan_anhwei_anti_japanese_base = { secede_province = CHC }
+			shaanxi_gansu_ningsia_region = { secede_province = CHC }
+			shanxi_suiyuan_anti_japanese_base = { secede_province = CHC }
+			shanxi_chahar_hebei_anti_japanese_base = { secede_province = CHC }
+			shanxi_hebei_shandong_henan_anti_japanese_base = { secede_province = CHC }
+			shandong_anti_japanese_base = { secede_province = CHC }
+			} 
+		MAN = { northeast_anti_japanese_united_army_base = { secede_province = CHC } } 
+		ai_chance = { factor = 100 }
+	}
+}
+country_event = {
+	id = 2000003
+	is_triggered_only = yes
+	title = "漫天花雨测试事件3"
+	desc = "南京飞来游击队"
+	picture = "JAP_Flag"
+	option = {
+		name = "测试"
+		load_oob = "SF_Testtroops03.txt"
+	}
+}
+country_event = {
+	id = 2000004
+	is_triggered_only = yes
+	title = "漫天花雨测试事件4"
+	desc = "高达红军全完蛋"
+	picture = "CHI_Flag"
+	option = {
+		name = "测试"
+		CHC = {
+			remove_brigade = "红军大学"
+			remove_brigade = "总部特务团"
+			remove_brigade = "第1师"
+			remove_brigade = "第2师"
+			remove_brigade = "第4师"
+			remove_brigade = "第73师"
+			remove_brigade = "第75师"
+			remove_brigade = "第78师"
+			remove_brigade = "回民师"
+			remove_brigade = "第28军"
+			remove_brigade = "第29军"
+			remove_brigade = "第30军"
+			remove_brigade = "第74师"
+			remove_brigade = "第81师"
+			remove_brigade = "陕南抗日联军第1军"
+			remove_brigade = "第四师"
+			remove_brigade = "第6师"
+			remove_brigade = "第49团"
+			remove_brigade = "第51、52、53团"
+			remove_brigade = "第32军"
+			remove_brigade = "第10师"
+			remove_brigade = "第11师"
+			remove_brigade = "第12师"
+			remove_brigade = "独立师"
+			remove_brigade = "第91师"
+			remove_brigade = "第93师"
+		}
+	}
+}
+country_event = {
+	id = 2000005
+	is_triggered_only = yes
+	title = "漫天花雨测试事件5"
+	desc = "失败，都只能发动叛乱，不能建立地下组织"
+	picture = "CHC_Flag"
+	option = {
+		name = "测试"
+		CHC = { northeast_anti_japanese_united_army_base = { create_revolt = 3 } }
+	}
+	option = {
+		name = "测试"
+		CHC = { northeast_anti_japanese_united_army_base = { create_revolt = 2 } }
+	}
+	option = {
+		name = "测试"
+		CHC = { northeast_anti_japanese_united_army_base = { create_revolt = 1 } }
+	}
+	option = {
+		name = "测试"
+		CHC = { 8803 = { create_revolt = 3 } }
+		CHC = { 4741 = { create_revolt = 3 } }
+	}
+	option = {
+		name = "测试"
+		CHC = { 8803 = { create_revolt = 2 } }
+		CHC = { 4741 = { create_revolt = 2 } }
+	}
+	option = {
+		name = "测试"
+		CHC = { 8803 = { create_revolt = 1 } }
+		CHC = { 4741 = { create_revolt = 1 } }
+	}
+	option = {
+		name = "测试"
+		8803 = { create_revolt = 3 }
+		4741 = { create_revolt = 3 }
+	}
+	option = {
+		name = "测试"
+		8803 = { create_revolt = 2 }
+		4741 = { create_revolt = 2 }
+	}
+	option = {
+		name = "测试"
+		8803 = { create_revolt = 1 }
+		4741 = { create_revolt = 1 }
+	}
+}

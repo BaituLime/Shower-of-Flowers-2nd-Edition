@@ -1,0 +1,93 @@
+		army = {
+			name = "第1军团"
+			location = 5542
+			regiment = { type = hq_brigade historical_model = 3 }
+			division = {
+				name = "第3师团"
+				location = 5542
+				regiment = { type = imperial_brigade historical_model = 3 }
+				regiment = { type = imperial_brigade historical_model = 3 }
+				regiment = { type = imperial_brigade historical_model = 3 }
+			}
+			division = {
+				name = "第9师团"
+				location = 5542
+				regiment = { type = infantry_brigade historical_model = 3 }
+				regiment = { type = infantry_brigade historical_model = 3 }
+				regiment = { type = infantry_brigade historical_model = 3 }
+				regiment = { type = artillery_brigade historical_model = 3 }
+			}
+			division = {
+				name = "第11师团"
+				location = 5542
+				regiment = { type = infantry_brigade historical_model = 3 }
+				regiment = { type = infantry_brigade historical_model = 3 }
+				regiment = { type = infantry_brigade historical_model = 3 }
+				regiment = { type = artillery_brigade historical_model = 3 }
+			}
+		}
+		army = {
+			name = "第2军团"
+			location = 5542
+			regiment = { type = hq_brigade name = "第2军团司令部" historical_model = 3 }
+			division = {
+				name = "第13师团"
+				location = 5542
+				regiment = { type = infantry_brigade historical_model = 3 }
+				regiment = { type = artillery_brigade historical_model = 3 }
+				regiment = { type = engineer_brigade historical_model = 3 }
+				regiment = { type = anti_tank_brigade historical_model = 3 }
+			}
+			division = {
+				name = "第16师团"
+				location = 5542
+				regiment = { type = infantry_brigade historical_model = 3 }
+				regiment = { type = artillery_brigade historical_model = 3 }
+				regiment = { type = engineer_brigade historical_model = 3 }
+				regiment = { type = anti_tank_brigade historical_model = 3 }
+			}
+			division = {
+				name = "第101师团"
+				location = 5542
+				regiment = { type = infantry_brigade historical_model = 3 }
+				regiment = { type = artillery_brigade historical_model = 3 }
+				regiment = { type = engineer_brigade historical_model = 3 }
+				regiment = { type = anti_tank_brigade historical_model = 3 }
+			}
+		}
+		army = {
+			name = "第21军团"
+			location = 5834
+			regiment = { type = hq_brigade name = "第21军团司令部" historical_model = 3 }
+			division = {
+				name = "第5师团"
+				location = 5834
+				regiment = { type = motorized_brigade experience = 10 name = "第11步兵团" historical_model = 1 }
+				regiment = { type = motorized_brigade experience = 10 name = "第21步兵团" historical_model = 1 }
+				regiment = { type = motorized_brigade experience = 10 name = "第41步兵团" historical_model = 1 }
+				regiment = { type = motorized_brigade experience = 10 name = "第42步兵团" historical_model = 1 }
+			}
+			division = {
+				name = "第18师团"
+				location = 5834
+				regiment = { type = mechanized_brigade historical_model = 2 }
+				regiment = { type = motorized_brigade historical_model = 2 }
+				regiment = { type = armored_car_brigade historical_model = 2 }
+				regiment = { type = armored_car_brigade historical_model = 2 }
+			}
+			division = {
+				name = "近卫师团"
+				location = 5834
+				regiment = { type = imperial_brigade name = "近卫第3步兵联队" historical_model = 2 }
+				regiment = { type = imperial_brigade name = "近卫第4步兵联队" historical_model = 2 }
+				regiment = { type = imperial_brigade name = "近卫第5步兵联队" historical_model = 2 }
+				regiment = { type = armored_car_brigade name = "近卫装甲车联队" historical_model = 2 }
+			}
+			division = {
+				name = "台湾混成旅团"
+				location = 5834
+				regiment = { type = infantry_brigade experience = 10 historical_model = 2 }
+				regiment = { type = artillery_brigade experience = 10 historical_model = 2 }
+				regiment = { type = engineer_brigade experience = 10 historical_model = 2 }
+			}
+		}

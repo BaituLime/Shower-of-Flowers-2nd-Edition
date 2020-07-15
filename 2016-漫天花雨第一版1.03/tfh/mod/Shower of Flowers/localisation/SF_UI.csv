@@ -1,0 +1,25 @@
+xxxx;;;;;;;;;;;;;;x
+#######################################;;;;;;;;;;;;;;x
+# 载入画面;;;;;;;;;;;;;;x
+#######################################;;;;;;;;;;;;;;x
+LOADING_MAP_SPRITES;匈奴未灭，何以家为？;Chargement des sprites de carte?Karten-Sprites werden geladen ...;Wczytywanie Map-Sprites...;Cargando gr醘icos animados de mapas...;Caricamento Sprites mappa in corso...;Egys間ek bet鰈t閟e?Nahr醰醤?zmen歟nin na map?..;;;;;;x
+LOADING_GUI_DEF;匈奴未灭，何以家为？;Chargement des d閒initions GUI?GUI-Definitionen werden geladen ...;Wczytywanie definicji interfejsu graficznego...;Cargando definiciones de IGU...;Caricamento definizioni GUI in corso...;GUI bet鰈t閟e?Nahr醰醤?definic rozhran?..;;;;;;x
+LOADING_DATABASES;匈奴未灭，何以家为？;Chargement des bases de donn閑s?Datenbanken werden geladen ...;Wczytywanie baz danych...;Cargando bases de datos...;Caricamento database in corso...;Adatb醶is bet鰈t閟e?Nahr醰醤?datab醶?..;;;;;;x
+LOADING_DATABASES2;匈奴未灭，何以家为？;Chargement des bases de donn閑s II?;;Cargando bases de datos II...;;;;;;;;;x
+INIT_MAP_LOGIC;匈奴未灭，何以家为？;Initialisation Maplogic?Maplogic wird initialisiert ...;Uruchamianie Maplogic...;Inicializando l骻ica de mapa...;Inizializzazione Maplogic in corso...;P醠ya鷗vonalak t鰈t閟e?Inicializace syst閙u map?;;;;;x
+CREATING_CHKSUM;匈奴草黄马正肥，金山西见烟尘飞，汉家大将西出师。;Cr閍tion de somme de contr鬺e?Pr黤summe wird erstellt ...;Tworzenie sumy kontrolnej...;Creando total de chequeos...;Creazione checksum in corso...;Ellen鮮z?鰏szeg l閠rehoz醩a?Vytv狲en?hodnot sou鑤?..;;;;;;x
+LOADING_HISTORY;一寸山河一寸血，十万青年十万军。;Chargement des fichiers historiques...;Geschichtsdateien werden geladen ...;Wczytywanie plik體 historycznych...;Cargando archivos de historia...;Caricamento file storia in corso...;T鰎t閚elmi f醞lok bet鰈t閟e?Nahr醰醤?soubor?s histori?..;;;;;;x
+LOADING_SOUNDS;一寸山河一寸血，十万青年十万军。;Chargement des sons?Sounddateien werden geladen ...;Wczytywanie d焪i阫體...;Cargando sonidos...;Caricamento suoni in corso...;Hangok bet鰈t閟e?Nahr醰醤?zvuk?..;;;;;;x
+PROC_FLAGS;欢迎使用【漫天花雨】MOD。;Traitement des drapeaux?Flaggen werden verarbeitet ...;Przetwarzanie flag...;Procesando banderas...;Elaborazione flag in corso...;Z醩zl髃 feldolgoz醩a?Zpracov醤?vlajek...;;;;;;x
+LOAD_FLAGS;一寸山河一寸血，十万青年十万军。;Chargement des drapeaux?Flaggen werden geladen ...;Wczytywanie flag...;Cargando banderas...;Caricamento flag in corso...;Z醩zl髃 bet鰈t閟e?Nahr醰醤?vlajek...;;;;;;x
+LOAD_GFX;匈奴草黄马正肥，金山西见烟尘飞，汉家大将西出师。;Chargement des graphismes?Grafiken werden geladen ...;Wczytywanie grafiki...;Cargando gr醘icos...;Caricamento grafica in corso...;Grafik醟 bet鰈t閟e?Nahr醰醤?grafiky...;;;;;;x
+CREATING_THE_WORLD;雨后复斜阳，关山阵阵苍。;Cr閍tion du monde?Die Welt wird erstellt ...;Tworzenie 渨iata...;Creando el mundo...;Creazione mondo in corso...;Vil醙 l閠rehoz醩a?Vytv狲en?sv靦a...;;;;;;x
+CREATING_TREES;但使龙城飞将在，不教胡马度阴山。;Cr閍tion des arbres...;B鋟me werden erstellt ...;Tworzenie drzew...;Creando 醨boles...;Creazione alberi in corso...;F醟 l閠rehoz醩a?Vytv狲en?porost?..;;;;;;x
+CREATING_BORDERS;匈奴草黄马正肥，金山西见烟尘飞，汉家大将西出师。;Cr閍tion des fronti鑢es...;Grenzen werden erstellt ...;Tworzenie granic...;Creando fronteras...;Creazione confini in corso...;Orsz醙hat醨ok l閠rehoz醩a?Vytv狲en?hranic...;;;;;;x
+CREATING_RIVERS;但使龙城飞将在，不教胡马度阴山。;Cr閍tion des fleuves...;Fl黶se werden erstellt ...;Tworzenie rzek...;Creando r韔s...;Creazione fiumi in corso...;Foly髃 l閠rehoz醩a?Vytv狲en?鴈k...;;;;;;x
+MAP_PROPERLY_INIT;雨后复斜阳，关山阵阵苍。;Initialisation de la carte r閡ssie?Karte korrekt initialisiert ...;Mapa uruchomiona prawid硂wo...;Mapa inicializado con 閤ito...;Mappa inizializzata correttamente...;A p醠ya bet鰈tve?Mapa byla spr醰n?inicializov醤a...;;;;;;x
+CREATING_PROVINCE;匈奴草黄马正肥，金山西见烟尘飞，汉家大将西出师。;Cr閍tion de province #;Erstellung der Provinz#;Tworzenie prowincji;Creando provincia #;Creazione provincia # in corso...;Provincia l閠rehoz醩a?Vytv狲en?provincie #;;;;;;x
+CREATING_TEXTS;但使龙城飞将在，不教胡马度阴山。;Cr閍tion des textes?Texte werden erstellt ....;Tworzenie tekst體...;Creando textos....;Creazione testi in corso...;Sz鰒egek l閠rehoz醩a?Vytv狲en?text?..;;;;;;x
+LOAD_EVENTS;一寸山河一寸血，十万青年十万军。;Chargement des 関鑞ements?Ereignisse werden geladen ...;Wczytywanie zdarze?..;Cargando eventos...;Caricamento eventi in corso...;Esem閚yek bet鰈t閟e?Nahr醰醤?ud醠ost?..;;;;;;x
+ADAPTING_HISTORY;一寸山河一寸血，十万青年十万军。;Adaptation de l'Histoire?Geschichte wird angepasst...;Przystosowywanie historii...;adaptando historia...;Adattamento storia in corso...;T鰎t閚elmi f醞lok bet鰈t閟e?Adaptace historie...;;;;;;x
+CALC_PATHS;生当作人杰，死亦为鬼雄。;Calcul des chemins匼nCela peut prendre plusieurs minutes.;Pfade werden berechnet ...\nDies kann einige Minuten dauern.;Obliczanie 渃ie縠k...\nTo mo縠 potrwa?kilka minut.;Calculando rutas...\nEsto puede llevar varios minutos.;Calcolo percorsi in corso... \nQuesta operazione potrebbe richiedere qualche minuto.;趖vonalak kisz醡韙醩a匼n Ez n閔醤y percet is ig閚ybe vehet?V齪o鑕t cest...\nTo m鶠e trvat n靕olik minut.;;;;;;x

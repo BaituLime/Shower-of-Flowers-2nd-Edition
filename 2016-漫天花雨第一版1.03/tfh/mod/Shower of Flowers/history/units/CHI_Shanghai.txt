@@ -1,0 +1,87 @@
+corps = {
+	name = "第9集团军"
+	location = 5519
+	regiment = { type = hq_brigade name = "第9集团军司令部" historical_model = 0 }
+	regiment = { type = infantry_brigade experience = 25 historical_model = 3 }
+	division= {
+		name = "第26师"
+		location = 5573
+		regiment = { type = infantry_brigade experience = 15 historical_model = 0 }
+		regiment = { type = infantry_brigade experience = 15 historical_model = 0 }
+		regiment = { type = infantry_brigade experience = 15 historical_model = 0 }
+	}
+	division= {
+		name = "第87师"
+		location = 5573
+		regiment = { type = infantry_brigade experience = 25 historical_model = 3 }
+		regiment = { type = infantry_brigade experience = 25 historical_model = 3 }
+		regiment = { type = infantry_brigade experience = 25 historical_model = 3 }
+		regiment = { type = artillery_brigade experience = 25 historical_model = 3 }
+	}
+	division= {
+		name = "第88师"
+		location = 5519
+		regiment = { type = infantry_brigade experience = 25 historical_model = 3 }
+		regiment = { type = infantry_brigade experience = 25 historical_model = 3 }
+		regiment = { type = infantry_brigade experience = 25 historical_model = 3 }
+		regiment = { type = artillery_brigade experience = 25 historical_model = 3 }
+	}
+	division = {
+		name = "上海警备司令部"
+		location = 5519
+		regiment = { type = militia_brigade historical_model = 0 }
+		regiment = { type = militia_brigade historical_model = 0 }
+	}
+	division = {
+		name = "江苏保安队"
+		location = 5519
+		regiment = { type = militia_brigade historical_model = 0 }
+		regiment = { type = militia_brigade historical_model = 0 }
+		regiment = { type = militia_brigade historical_model = 0 }
+	}
+}
+corps = {
+	name = "第8集团军"
+	location = 5621
+	regiment = { type = hq_brigade name = "第8集团军司令部" historical_model = 0 }
+	division= {
+		name = "第36师"
+		location = 5621
+		regiment = { type = infantry_brigade historical_model = 0 }
+		regiment = { type = infantry_brigade historical_model = 0 }
+		regiment = { type = infantry_brigade historical_model = 0 }
+	}
+	division= {
+		name = "第50师"
+		location = 5621
+		regiment = { type = infantry_brigade historical_model = 0 }
+		regiment = { type = infantry_brigade historical_model = 0 }
+		regiment = { type = infantry_brigade historical_model = 0 }
+	}
+	division= {
+		name = "第92师"
+		location = 5599
+		regiment = { type = infantry_brigade historical_model = 0 }
+		regiment = { type = infantry_brigade historical_model = 0 }
+	}
+	division= {
+		name = "第93师"
+		location = 5599
+		regiment = { type = militia_brigade historical_model = 0 }
+		regiment = { type = militia_brigade historical_model = 0 }
+	}
+	division= {
+		name = "第167师"
+		location = 5599
+		regiment = { type = militia_brigade historical_model = 0 }
+		regiment = { type = militia_brigade historical_model = 0 }
+		regiment = { type = militia_brigade historical_model = 0 }
+	}
+	division = {
+		name = "中央军校教导总队"
+		location = 5621
+		regiment = { type = chi_star_destroyer experience = 10 historical_model = 3 }
+		regiment = { type = chi_star_destroyer experience = 10 historical_model = 3 }
+		regiment = { type = chi_star_destroyer experience = 10 historical_model = 3 }
+	}
+}
